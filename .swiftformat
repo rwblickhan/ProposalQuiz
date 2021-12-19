@@ -1,0 +1,5 @@
+--disable wrapMultilineStatementBraces
+--closingparen same-line
+--maxwidth 120
+--wraparguments before-first
+--wrapcollections before-first

@@ -11,6 +11,7 @@
 		CDD66650276EFC6A00417959 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD6664F276EFC6A00417959 /* ContentView.swift */; };
 		CDD66652276EFC6C00417959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD66651276EFC6C00417959 /* Assets.xcassets */; };
 		CDD66655276EFC6C00417959 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD66654276EFC6C00417959 /* Preview Assets.xcassets */; };
+		CDD6665C276EFC8900417959 /* Bundle+JSONExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD6665B276EFC8900417959 /* Bundle+JSONExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CDD6664F276EFC6A00417959 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CDD66651276EFC6C00417959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDD66654276EFC6C00417959 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDD6665B276EFC8900417959 /* Bundle+JSONExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+JSONExtensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				CDD6664D276EFC6A00417959 /* ProposalQuizApp.swift */,
+				CDD6665B276EFC8900417959 /* Bundle+JSONExtensions.swift */,
 				CDD6664F276EFC6A00417959 /* ContentView.swift */,
 				CDD66651276EFC6C00417959 /* Assets.xcassets */,
 				CDD66653276EFC6C00417959 /* Preview Content */,
@@ -139,6 +142,7 @@
 			files = (
 				CDD66650276EFC6A00417959 /* ContentView.swift in Sources */,
 				CDD6664E276EFC6A00417959 /* ProposalQuizApp.swift in Sources */,
+				CDD6665C276EFC8900417959 /* Bundle+JSONExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
