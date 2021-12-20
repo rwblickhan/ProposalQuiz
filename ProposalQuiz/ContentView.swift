@@ -13,16 +13,16 @@ struct ContentView: View {
         case correct
         case incorrect
     }
-    
+
     @State private var currentItemIndex: Int = 0
     @State private var itemState: ItemState = .noAnswer
     private let items: [QuizItem]
-    private var isAtEnd: Bool { currentItemIndex == items.count - 1}
-    
+    private var isAtEnd: Bool { currentItemIndex == items.count - 1 }
+
     init() {
         items = Bundle.main.decode([QuizItem].self, from: "data.json")
     }
-    
+
     var body: some View {
         List {
             topLabel.padding()
@@ -46,7 +46,7 @@ struct ContentView: View {
             }
         }
     }
-    
+
     private var topLabel: some View {
         switch itemState {
         case .correct where isAtEnd:
@@ -57,7 +57,7 @@ struct ContentView: View {
             return Text(items[currentItemIndex].question)
         }
     }
-    
+
     private func button(for option: QuizOption) -> some View {
         Button(action: {
             itemState = option.correct ? .correct : .incorrect
