@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Why did we first meet?",
+        "options": [
+            {"answer": "Yonni wanted to build an app.", "correct": true, "id": "0"},
+            {"answer": "We met in class.", "correct": false, "id": "1"},
+            {"answer": "We both went to the same Game of Thrones showing.", "correct": false, "id": "2"}
+        ]
+    },
+    {
+        "question": "Why was I so cold during Festival of Lights?",
+        "options": [
+            {"answer": "I forgot to bring a jacket.", "correct": true, "id": "0"},
+            {"answer": "It was just an excuse to cuddle.", "correct": true, "id": "1"},
+            {"answer": "I wasn't cold - I'm from the Midwest!", "correct": false, "id": "2"}
+        ]
+    },
+    {
+        "question": "Why did we never go to Enchant again?",
+        "options": [
+            {"answer": "We thought it was lame.", "correct": false, "id": "0"},
+            {"answer": "It never came back to Vancouver.", "correct": true, "id": "1"},
+            {"answer": "An arsonist burnt it down.", "correct": false, "id": "2"}
+        ]
+    },
+    {
+        "question": "How many times have we gone to Raisu?",
+        "options": [
+            {"answer": "Three.", "correct": true, "id": "0"},
+            {"answer": "Four.", "correct": true, "id": "1"},
+            {"answer": "Five.", "correct": true, "id": "2"},
+            {"answer": "Russell can't remember either.", "correct": true, "id": "3"}
+        ]
+    },
+    {
+        "question": "Will you marry me?",
+        "options": [
+            {"answer": "Yes!", "correct": true, "id": "0"},
+            {"answer": "No.", "correct": false, "id": "1"}
+        ]
+    }
+]
