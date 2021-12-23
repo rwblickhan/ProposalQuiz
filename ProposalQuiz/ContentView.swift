@@ -26,11 +26,6 @@ struct ContentView: View {
     var body: some View {
         List {
             topLabel.padding()
-            if itemState != .correct {
-                ForEach(items[currentItemIndex].options) {
-                    button(for: $0)
-                }
-            }
             switch itemState {
             case .correct where !isAtEnd:
                 Button(action: {
@@ -39,9 +34,12 @@ struct ContentView: View {
                 }, label: {
                     Text("Turn to the next page, then tap here!")
                 })
+            case .noAnswer:
+                optionButtons
             case .incorrect:
+                optionButtons
                 Text("Sorry, try again!").foregroundColor(.red)
-            case .correct, .noAnswer:
+            case .correct:
                 EmptyView()
             }
         }
@@ -55,6 +53,12 @@ struct ContentView: View {
             return Text("Correct!")
         case .noAnswer, .incorrect:
             return Text(items[currentItemIndex].question)
+        }
+    }
+    
+    private var optionButtons: some View {
+        ForEach(items[currentItemIndex].options) {
+            button(for: $0)
         }
     }
 
