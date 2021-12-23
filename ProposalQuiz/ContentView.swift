@@ -55,7 +55,7 @@ struct ContentView: View {
             return Text(items[currentItemIndex].question)
         }
     }
-    
+
     private var optionButtons: some View {
         ForEach(items[currentItemIndex].options) {
             button(for: $0)
