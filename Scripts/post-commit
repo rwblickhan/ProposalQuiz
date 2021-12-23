@@ -1,0 +1,18 @@
+#!/bin/zsh
+set -euo pipefail
+
+# Check if there's anything on the branch
+if [[ -n $(git status -s) ]]; then
+  echo "Warning: cannot lint if there are uncommitted changes"
+  exit 0
+else
+  # Run Swiftformat
+  mint run swiftformat .
+  # If Swiftformat changed anything, commit it
+  if [[ -n $(git status -s) ]]; then
+    git add .
+    git commit -m "Swiftformat"
+  fi
+fi
+
+exit 0
