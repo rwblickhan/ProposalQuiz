@@ -1,5 +1,11 @@
 [
     {
+        "question": "Each page comes with a question in the app. Answer the question correctly and you can flip the page!",
+        "options": [
+            {"answer": "Got it.", "correct": true, "id": "0"}
+        ]
+    },
+    {
         "question": "Why did we first meet?",
         "options": [
             {"answer": "Yonni wanted to build an app.", "correct": true, "id": "0"},
