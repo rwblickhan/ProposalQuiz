@@ -33,6 +33,15 @@
         ]
     },
     {
+        "question": "How long did Rooibos wait until claiming the blanket?",
+        "options": [
+            {"answer": "A day.", "correct": false, "id": "0"},
+            {"answer": "A week.", "correct": false, "id": "1"},
+            {"answer": "A month.", "correct": false, "id": "2"},
+            {"answer": "Literally a minute.", "correct": true, "id": "3"}
+        ]
+    },
+    {
         "question": "Will you marry me?",
         "options": [
             {"answer": "Yes!", "correct": true, "id": "0"},
