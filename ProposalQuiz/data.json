@@ -9,8 +9,16 @@
         "question": "Why did we first meet?",
         "options": [
             {"answer": "Yonni wanted to build an app.", "correct": true, "id": "0"},
-            {"answer": "We met in class.", "correct": false, "id": "1"},
+            {"answer": "We met in CPSC 121.", "correct": false, "id": "1"},
             {"answer": "We both went to the same Game of Thrones showing.", "correct": false, "id": "2"}
+        ]
+    },
+    {
+        "question": "Why did I buy you a copy of A Game of Thrones?",
+        "options": [
+            {"answer": "I wanted to get you a special gift after your really hard exam.", "correct": false, "id": "0"},
+            {"answer": "I wanted to test if you were interested in me by getting you a birthday gift.", "correct": true, "id": "1"},
+            {"answer": "I didn't get you A Game of Thrones; Jia Huah did.", "correct": false, "id": "2"} 
         ]
     },
     {
@@ -28,6 +36,14 @@
             {"answer": "It never came back to Vancouver.", "correct": true, "id": "1"},
             {"answer": "An arsonist burnt it down.", "correct": false, "id": "2"}
         ]
+    },'
+    {
+        "question": "Where did I interview before getting the AWS internship?",
+        "options": [
+            {"answer": "A Thinking Ape.", "correct": false, "id": "0"},
+            {"answer": "EA.", "correct": true, "id": "1"},
+            {"answer": "Relic.", "correct": false, "id": "2"}
+        ]
     },
     {
         "question": "How many times have we gone to Raisu?",
@@ -36,6 +52,30 @@
             {"answer": "Four.", "correct": true, "id": "1"},
             {"answer": "Five.", "correct": true, "id": "2"},
             {"answer": "Russell can't remember either.", "correct": true, "id": "3"}
+        ]
+    },
+    {
+        "question": "What was the most disappointing part of our first trip to Chicago?",
+        "options": [
+            {"answer": "It hit -20F.", "correct": true, "id": "0"},
+            {"answer": "Culver's.", "correct": true, "id": "1"},
+            {"answer": "My relatives were weird.", "correct": true, "id": "2"}
+        ]
+    },
+    {
+        "question": "Which Michelin-starred restaurant in San Francisco did we eat at for our second anniversary?",
+        "options": [
+            {"answer": "French Laundry.", "correct": false, "id": "0"},
+            {"answer": "Chapeau.", "correct": true, "id": "1"},
+        ]
+    },
+    {
+        "question": "How many hours did John sleep during Hack the North?",
+        "options": [
+            {"answer": "4 hours.", "correct": false, "id": "0"},
+            {"answer": "8 hours.", "correct": false, "id": "1"},
+            {"answer": "12 hours.", "correct": false, "id": "2"},
+            {"answer": "John slept during Hack the North?", "correct": "true", "id": "3"}
         ]
     },
     {
