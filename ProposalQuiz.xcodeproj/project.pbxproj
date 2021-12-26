@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CDD6664A276EFC6A00417959 /* Russell + Sherry ProposalQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Russell + Sherry ProposalQuiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD6664A276EFC6A00417959 /* ProposalQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProposalQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD6664D276EFC6A00417959 /* ProposalQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProposalQuizApp.swift; sourceTree = "<group>"; };
 		CDD6664F276EFC6A00417959 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CDD66651276EFC6C00417959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		CDD6664B276EFC6A00417959 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDD6664A276EFC6A00417959 /* Russell + Sherry ProposalQuiz.app */,
+				CDD6664A276EFC6A00417959 /* ProposalQuiz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,7 +93,7 @@
 			);
 			name = ProposalQuiz;
 			productName = ProposalQuiz;
-			productReference = CDD6664A276EFC6A00417959 /* Russell + Sherry ProposalQuiz.app */;
+			productReference = CDD6664A276EFC6A00417959 /* ProposalQuiz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -296,7 +296,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.rwblickhan.ProposalQuiz;
-				PRODUCT_NAME = "Russell + Sherry ProposalQuiz";
+				PRODUCT_NAME = ProposalQuiz;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,7 +326,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.rwblickhan.ProposalQuiz;
-				PRODUCT_NAME = "Russell + Sherry ProposalQuiz";
+				PRODUCT_NAME = ProposalQuiz;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
