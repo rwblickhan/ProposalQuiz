@@ -36,7 +36,7 @@
             {"answer": "It never came back to Vancouver.", "correct": true, "id": "1"},
             {"answer": "An arsonist burnt it down.", "correct": false, "id": "2"}
         ]
-    },'
+    },
     {
         "question": "Where did I interview before getting the AWS internship?",
         "options": [
@@ -63,10 +63,28 @@
         ]
     },
     {
-        "question": "Which Michelin-starred restaurant in San Francisco did we eat at for our second anniversary?",
+        "question": "Which Seattle landmark did we actually visit?",
+        "options": [
+            {"answer": "The Space Needle.", "correct": false, "id": "0"},
+            {"answer": "Amazon Spheres.", "correct": false, "id": "1"},
+            {"answer": "Pike Place Chowder.", "correct": true, "id": "2"}
+        ]
+    },
+    {
+        "question": "Other than Rene Magritte, what other famous artwork did we see at SFMOMA?",
+        "options": [
+            {"answer": "Salvador Dali's *The Persistance of Memory* (melting clocks!).", "correct": false, "id": "0"},
+            {"answer": "Louise Bourgeois' *Maman* (spiders!).", "correct": true, "id": "1"},
+            {"answer": "Claude Monet's *Water Lilies* (water lilies!).", "correct": false, "id": "2"}
+        ]
+    },
+    {
+        "question": "Which fancy Bay Area restaurant did we eat at for our second anniversary?",
         "options": [
             {"answer": "French Laundry.", "correct": false, "id": "0"},
             {"answer": "Chapeau.", "correct": true, "id": "1"},
+            {"answer": "Oren's Hummus.", "correct": false, "id": "2"},
+            {"answer": "Kin Khao.", "correct": false, "id": "3"}
         ]
     },
     {
@@ -75,16 +93,106 @@
             {"answer": "4 hours.", "correct": false, "id": "0"},
             {"answer": "8 hours.", "correct": false, "id": "1"},
             {"answer": "12 hours.", "correct": false, "id": "2"},
-            {"answer": "John slept during Hack the North?", "correct": "true", "id": "3"}
+            {"answer": "John slept during Hack the North?", "correct": true, "id": "3"}
         ]
     },
     {
-        "question": "How long did Rooibos wait until claiming the blanket?",
+        "question": "How many friendos are there in the Launchpals chat?",
+        "options": [
+            {"answer": "Seven.", "correct": false, "id": "0"},
+            {"answer": "Eight.", "correct": true, "id": "1"},
+            {"answer": "Nine.", "correct": false, "id": "2"}
+        ]
+    },
+    {
+        "question": "Who did we show the apartment to after Yonni moved out but before I moved in?",
+        "options": [
+            {"answer": "Angel.", "correct": true, "id": "0"},
+            {"answer": "Soo.", "correct": false, "id": "1"},
+            {"answer": "Sophia.", "correct": false, "id": "2"}
+        ]
+    },
+    {
+        "question": "How many CS Galas did we attend together?",
+        "options": [
+            {"answer": "Two.", "correct": false, "id": "0"},
+            {"answer": "Three.", "correct": true, "id": "1"},
+            {"answer": "Four.", "correct": false, "id": "2"}
+        ]
+    },
+    {
+        "question": "Which of these did we *NOT* do during the Asia trip?",
+        "options": [
+            {"answer": "Clambering all over the rocks at Shizilin.", "correct": false, "id": "0"},
+            {"answer": "Watching Jiro Dreams of Sushi at our Airbnb in Osaka.", "correct": false, "id": "1"},
+            {"answer": "Forcing very aggressive deer to bow to us for a treat.", "correct": false, "id": "2"},
+            {"answer": "Going to an all-you-can-drink izakaya with Kevin.", "correct": false, "id": "3"},
+            {"answer": "Seeing a giant-ass golden Buddha in Kyoto.", "correct": true, "id": "4"}
+        ]
+    },
+    {
+        "question": "How many jobs did I interview onsite for before Asana?",
+        "options": [
+            {"answer": "One.", "correct": true, "id": "0"},
+            {"answer": "Two.", "correct": false, "id": "1"},
+            {"answer": "Three.", "correct": false, "id": "2"}
+        ]
+    },
+    {
+        "question": "How long was the drive from Vancouver to San Francisco?",
+        "options": [
+            {"answer": "8 hours.", "correct": false, "id": "0"},
+            {"answer": "16 hours.", "correct": true, "id": "1"},
+            {"answer": "24 hours.", "correct": false, "id": "2"}
+        ]
+    },
+    {
+        "question": "How long did Rooibos wait until claiming our blankets?",
         "options": [
             {"answer": "A day.", "correct": false, "id": "0"},
             {"answer": "A week.", "correct": false, "id": "1"},
             {"answer": "A month.", "correct": false, "id": "2"},
             {"answer": "Literally a minute.", "correct": true, "id": "3"}
+        ]
+    },
+    {
+        "question": "Which romantic comedy did we *NOT* watch at the Airbnb in New Jersey?",
+        "options": [
+            {"answer": "To All The Boys I've Loved Before.", "correct": false, "id": "0"},
+            {"answer": "The Notebook.", "correct": false, "id": "1"},
+            {"answer": "Always Be My Maybe.", "correct": true, "id": "2"}
+        ]
+    },
+    {
+        "question": "What did I get you for your birthday when I ran out of Game of Thrones books?",
+        "options": [
+            {"answer": "Mejuri jewelry.", "correct": false, "id": "0"},
+            {"answer": "A nice dinner.", "correct": false, "id": "1"},
+            {"answer": "Nanoleaf.", "correct": true, "id": "2"}
+        ]
+    },
+    {
+        "question": "How many times did we go skiing in 2021?",
+        "options": [
+            {"answer": "Two.", "correct": false, "id": "0"},
+            {"answer": "Three.", "correct": true, "id": "1"},
+            {"answer": "Four.", "correct": false, "id": "2"}
+        ]
+    },
+    {
+        "question": "How much did Yichen spend on poke in Hawaii?",
+        "options": [
+            {"answer": "$100.", "correct": false, "id": "0"},
+            {"answer": "$150.", "correct": false, "id": "1"},
+            {"answer": "Like $200?", "correct": true, "id": "2"}
+        ]
+    },
+    {
+        "question": "How many stories have you published since moving to San Francisco?",
+        "options": [
+            {"answer": "None.", "correct": false, "id": "0"},
+            {"answer": "One.", "correct": false, "id": "1"},
+            {"answer": "Two!", "correct": true, "id": "2"}
         ]
     },
     {
