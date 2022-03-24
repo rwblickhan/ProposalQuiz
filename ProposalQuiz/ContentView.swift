@@ -57,7 +57,7 @@ struct ContentView: View {
     }
 
     private var optionButtons: some View {
-        ForEach(items[currentItemIndex].options) {
+        ForEach(items[currentItemIndex].options.shuffled()) {
             button(for: $0)
         }
     }
